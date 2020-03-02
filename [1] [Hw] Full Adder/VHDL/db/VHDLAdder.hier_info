@@ -1,0 +1,8 @@
+|VHDLAdder
+A[0] => Add0.IN1
+B[0] => Add0.IN2
+Cin => Add1.IN4
+Cout <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+PartialSum[0] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+
+

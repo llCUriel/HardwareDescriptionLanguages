@@ -1,0 +1,10 @@
+module VerilogAdder(A,B,Cin,Cout,Sum);
+	input [7:0] A, B;
+	input  Cin;
+	output Cout,Sum;
+	wire Tmp;
+
+always @(*)
+	Cout<=Cin;
+
+endmodule

@@ -1,0 +1,44 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\uurie\OneDrive\Escritorio\CIC\simulation\modelsim
+Evhdladder
+Z1 w1581820002
+Z2 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z6 dC:\Users\uurie\OneDrive\Escritorio\CIC\simulation\modelsim
+Z7 8C:/Users/uurie/OneDrive/Escritorio/CIC/VHDLAdder.vhd
+Z8 FC:/Users/uurie/OneDrive/Escritorio/CIC/VHDLAdder.vhd
+l0
+L6
+Ve4nXkhcf3UA1ZWoEK;m^E3
+!s100 [CHoD^S01?iT_TIkB9fB;2
+Z9 OV;C;10.1d;51
+33
+!i10b 1
+Z10 !s108 1581820352.795000
+Z11 !s90 -reportprogress|300|-2008|-work|work|C:/Users/uurie/OneDrive/Escritorio/CIC/VHDLAdder.vhd|
+Z12 !s107 C:/Users/uurie/OneDrive/Escritorio/CIC/VHDLAdder.vhd|
+Z13 o-2008 -work work -O0
+Z14 tExplicit 1
+Avhdladderachitecture
+R2
+R3
+R4
+R5
+DEx4 work 9 vhdladder 0 22 e4nXkhcf3UA1ZWoEK;m^E3
+l26
+L22
+VSaJGi^iZIk@1zn`=5c=:T3
+!s100 z?kM<^kel[EnM01RcjHJ]2
+R9
+33
+!i10b 1
+R10
+R11
+R12
+R13
+R14

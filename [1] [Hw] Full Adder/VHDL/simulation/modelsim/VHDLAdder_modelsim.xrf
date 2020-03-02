@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/uurie/OneDrive/Escritorio/CIC/VHDLAdder.vhd
+source_file = 1, C:/Users/uurie/OneDrive/Escritorio/CIC/db/VHDLAdder.cbx.xml
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = VHDLAdder
+instance = comp, \Cout~output\, Cout~output, VHDLAdder, 1
+instance = comp, \PartialSum[0]~output\, PartialSum[0]~output, VHDLAdder, 1
+instance = comp, \A[0]~input\, A[0]~input, VHDLAdder, 1
+instance = comp, \Cin~input\, Cin~input, VHDLAdder, 1
+instance = comp, \B[0]~input\, B[0]~input, VHDLAdder, 1
+instance = comp, \Add1~0\, Add1~0, VHDLAdder, 1
+instance = comp, \Add1~1\, Add1~1, VHDLAdder, 1
