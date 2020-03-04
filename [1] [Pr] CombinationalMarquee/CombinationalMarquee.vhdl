@@ -16,9 +16,9 @@ ENTITY CombinationalMarquee IS
 	 
 	PORT(
 		 C0,C1,C2,C3,C4				: IN 	 STD_LOGIC_VECTOR(InputCodeSize 		  -1 DOWNTO 0);
-		 MarqueePosition				: IN   STD_LOGIC_VECTOR(InputPositionBusSize-1 DOWNTO 0);
-		 D0,D1,D2,D3,D4,D5,D6,D7	: OUT  STD_LOGIC_VECTOR(OutputSize			  -1 DOWNTO 0);
-		 MarqueePositionOutput     : OUT  STD_LOGIC_VECTOR(NumberOfDisplays    -1 DOWNTO 0)
+		 MarqueePosition			: IN   STD_LOGIC_VECTOR(InputPositionBusSize-1 DOWNTO 0);
+		 D0,D1,D2,D3,D4,D5,D6,D7		: OUT  STD_LOGIC_VECTOR(OutputSize			  -1 DOWNTO 0);
+		 MarqueePositionOutput     		: OUT  STD_LOGIC_VECTOR(NumberOfDisplays    -1 DOWNTO 0)
 	);
 	
 END CombinationalMarquee;
