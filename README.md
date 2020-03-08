@@ -27,4 +27,5 @@ This course is intended to teach two of the main HDL’s used in academic enviro
 
 <p align="center"> <img src="ss/sincaa.png" width="85%"></p>
 
+## Practice 02
 
