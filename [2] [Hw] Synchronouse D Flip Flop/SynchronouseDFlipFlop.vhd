@@ -4,15 +4,15 @@ USE IEEE.STD_LOGIC_ARITH.ALL;
 USE IEEE.NUMERIC_BIT.ALL;
 USE IEEE.STD_LOGIC_UNSIGNED.ALL;
 
-ENTITY SynchronouseDFlipFlop IS
+ENTITY SynchronousDFlipFlop IS
 	PORT (
 		CLK,RESET,D: IN STD_LOGIC;
 		Q: OUT STD_LOGIC
 	);
  
-END SynchronouseDFlipFlop;
+END SynchronousDFlipFlop;
 
-ARCHITECTURE SynchronouseDFlipFlopArchitecture OF SynchronouseDFlipFlop IS
+ARCHITECTURE SynchronousDFlipFlopArchitecture OF SynchronousDFlipFlop IS
 BEGIN
 
 	AsynDFFProcess: PROCESS (CLK)
@@ -26,4 +26,4 @@ BEGIN
 		
 	END PROCESS;
 	
-END SynchronouseDFlipFlopArchitecture;
+END SynchronousDFlipFlopArchitecture;
