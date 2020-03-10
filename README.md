@@ -105,4 +105,12 @@ This course is intended to teach two of the main HDL’s used in academic enviro
 <p>A=[0-15] B=15 Cin = 0</p>
 <p align="center"> <img src="ss/15B.png" width="35%"></p>
 
+## Practice 02 A (BinaryToDecimal)
+
+<p align="center"> <img src="ss/Rtl.png" width="85%"></p>
+
+## Simulation
+
+<p align="center"> <img src="ss/Sim2.png" width="35%"></p>
+
 
