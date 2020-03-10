@@ -111,6 +111,6 @@ This course is intended to teach two of the main HDL’s used in academic enviro
 
 ## Simulation
 
-<p align="center"> <img src="ss/Sim2.png" width="35%"></p>
+<p align="center"> <img src="ss/Sim2.png" width="100%"></p>
 
 
