@@ -1,0 +1,20 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE IEEE.STD_LOGIC_ARITH.ALL;
+USE IEEE.NUMERIC_BIT.ALL;
+USE IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+
+ENTITY Comparator IS
+	PORT (
+		A   : IN  STD_LOGIC_VECTOR(3 DOWNTO 0);
+		S   : OUT STD_LOGIC
+	);
+ 
+END Comparator;
+
+ARCHITECTURE ComparatorArchitecture OF Comparator IS
+
+BEGIN
+	S <= '1' when A <= 9 else '0';
+END ComparatorArchitecture;
