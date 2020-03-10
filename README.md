@@ -113,4 +113,12 @@ This course is intended to teach two of the main HDL’s used in academic enviro
 
 <p align="center"> <img src="ss/Sim2.png" width="100%"></p>
 
+## Practice 02 A (HexDecoder)
+
+<p align="center"> <img src="ss/hexdecoder.png" width="55%"></p>
+
+## Simulation
+
+<p align="center"> <img src="ss/SimxD.png" width="100%"></p>
+
 
