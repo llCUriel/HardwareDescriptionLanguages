@@ -131,4 +131,6 @@ This course is intended to teach two of the main HDL’s used in academic enviro
 ## Practice 02 B
 
 <p align="center"> <img src="ss/practice02ba.png" width="100%"></p>
+<p align="center"> <img src="ss/practice02bb.png" width="100%"></p>
+<p align="center"> <img src="ss/practice02bc.png" width="100%"></p>
 
