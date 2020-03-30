@@ -1,0 +1,27 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE IEEE.STD_LOGIC_ARITH.ALL;
+USE IEEE.NUMERIC_BIT.ALL;
+USE IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+ENTITY BCDComparator IS
+ 
+	GENERIC (
+		BusSize : INTEGER := 4
+	);
+ 
+	PORT (
+		A : IN STD_LOGIC_VECTOR(BusSize-1 DOWNTO 0);
+		B : IN STD_LOGIC_VECTOR(BusSize-1 DOWNTO 0);
+		S : OUT STD_LOGIC
+	);
+ 
+END BCDComparator;
+
+ARCHITECTURE BCDComparatorArchitecture OF BCDComparator IS
+
+BEGIN
+
+	S <= '0' when A < B else '1';
+
+END BCDComparatorArchitecture;

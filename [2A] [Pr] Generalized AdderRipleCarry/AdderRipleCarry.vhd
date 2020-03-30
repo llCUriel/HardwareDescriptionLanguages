@@ -8,7 +8,7 @@ USE IEEE.STD_LOGIC_UNSIGNED.ALL;
 ENTITY AdderRipleCarry IS
  
 	GENERIC (
-		AdderSize : INTEGER := 10
+		AdderSize : INTEGER := 4
 	);
  
 	PORT (

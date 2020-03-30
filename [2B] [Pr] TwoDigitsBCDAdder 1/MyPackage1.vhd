@@ -1,0 +1,58 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+
+package MyPackage1 is
+ 	
+
+	COMPONENT AdderRipleCarry IS
+		PORT (
+			A,B : IN  STD_LOGIC_VECTOR(3 DOWNTO 0);
+			Cin : IN  STD_LOGIC;
+			Cout: OUT STD_LOGIC;
+			Sum : OUT STD_LOGIC_VECTOR(3 DOWNTO 0)
+		);
+	END COMPONENT;
+	
+	COMPONENT BinaryToDecimal IS
+		PORT (
+			BinaryNumber : IN  STD_LOGIC_VECTOR(5 DOWNTO 0);
+			UnitsDisplay : OUT STD_LOGIC_VECTOR(6 DOWNTO 0);
+			TensDisplay  : OUT STD_LOGIC_VECTOR(6 DOWNTO 0);
+			UnitsInBinary: OUT STD_LOGIC_VECTOR(3 DOWNTO 0);
+			TensInBinary : OUT STD_LOGIC_VECTOR(3 DOWNTO 0)
+		);
+	END COMPONENT;
+	
+	COMPONENT BCDComparator IS
+		PORT (
+			A : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+			B : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+			S : OUT STD_LOGIC
+		);
+	END COMPONENT;
+
+	COMPONENT Mux_4To1 IS
+		PORT (
+			A,B,C,D : IN STD_LOGIC_VECTOR(13 DOWNTO 0);
+			S		  : IN STD_LOGIC_VECTOR(1 DOWNTO 0);
+			Z  : OUT STD_LOGIC_VECTOR(13 DOWNTO 0)
+		);
+	END COMPONENT;
+
+	COMPONENT Mux_2To1 IS
+		PORT (
+			A: IN  STD_LOGIC_VECTOR(3 DOWNTO 0);
+			B: IN  STD_LOGIC_VECTOR(3 DOWNTO 0);
+			S: IN  STD_LOGIC;
+			C: OUT STD_LOGIC_VECTOR(3 DOWNTO 0)
+		);
+	END COMPONENT;
+	
+end MyPackage1;
+
+	
+package body MyPackage1 is
+
+
+ 
+end MyPackage1;

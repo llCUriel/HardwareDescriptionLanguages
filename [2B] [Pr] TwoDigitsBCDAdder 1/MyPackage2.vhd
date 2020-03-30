@@ -1,0 +1,43 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+
+package MyPackage2 is
+ 	
+	COMPONENT OneDigitBCDAdder IS
+		PORT (
+			OperatorA    : IN  STD_LOGIC_VECTOR(3 DOWNTO 0);
+			OperatorB    : IN  STD_LOGIC_VECTOR(3 DOWNTO 0);
+			Cin 			 : IN  STD_LOGIC;
+			E				 : OUT STD_LOGIC;
+			UnitsDisplay : OUT STD_LOGIC_VECTOR(6 DOWNTO 0);
+			TensDisplay	 : OUT STD_LOGIC_VECTOR(6 DOWNTO 0);
+			UnitsInBinary: OUT STD_LOGIC_VECTOR(3 DOWNTO 0);
+			TensInBinary : OUT STD_LOGIC_VECTOR(3 DOWNTO 0)
+		);
+	END COMPONENT;
+	COMPONENT Mux2_2To1 IS
+	PORT(
+		A: IN  STD_LOGIC_VECTOR(20 DOWNTO 0);
+		B: IN  STD_LOGIC_VECTOR(20 DOWNTO 0);
+		S: IN  STD_LOGIC;
+		C: OUT STD_LOGIC_VECTOR(20 DOWNTO 0)
+		);
+	END COMPONENT;
+	COMPONENT Mux3_2To1 IS
+	PORT(
+		A: IN  STD_LOGIC_VECTOR(27 DOWNTO 0);
+		B: IN  STD_LOGIC_VECTOR(27 DOWNTO 0);
+		S: IN  STD_LOGIC;
+		C: OUT STD_LOGIC_VECTOR(27 DOWNTO 0)
+		);
+	END COMPONENT;
+	
+
+end MyPackage2;
+
+	
+package body MyPackage2 is
+
+
+ 
+end MyPackage2;
