@@ -32,6 +32,7 @@ This course is intended to teach two of the main HDL’s used in academic enviro
 ## Practice 02 A
 
 <p align="center"> <img src="ss/FinalP2.png" width="100%"></p>
+<p align="center"> <img src="ss/quince.png" width="50%"></p>
 
 ## Practice 02 A (Generalized AdderRipleCarry)
 
