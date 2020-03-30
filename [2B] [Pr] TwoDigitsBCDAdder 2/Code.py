@@ -1,5 +1,4 @@
 m = 20
-
 for n in range(m):
   Cin = 1
   A = B = [9]*n
