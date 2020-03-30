@@ -6,6 +6,7 @@ This course is intended to teach two of the main HDL’s used in academic enviro
 
 <p align="center"> <img src="ss/Practice01.png" width="35%"></p>
 <p align="center"> <img src="ss/Liss.png" width="85%"></p>
+<p align="center"> <img src="ss/fpga.png" width="85%"></p>
 
 ## Simulation
 
