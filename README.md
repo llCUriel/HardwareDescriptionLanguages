@@ -128,4 +128,7 @@ This course is intended to teach two of the main HDL’s used in academic enviro
 
 <p align="center"> <img src="ss/SimxD.png" width="100%"></p>
 
+## Practice 02 B
+
+<p align="center"> <img src="ss/practice02ba.png" width="100%"></p>
 
